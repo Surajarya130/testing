@@ -75,7 +75,7 @@ function Authors() {
           <p>{eachAuthor.about}</p>
         </div>
         <div className="action has-text-centered">
-          <a href="#" className="button is-small">View profile</a>
+          <a href="/dashboard" className="button is-small">View profile</a>
         </div>
       </div>
     </div>
