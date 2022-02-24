@@ -69,6 +69,7 @@ function Authors() {
 
           <h3 className="username">{eachAuthor.name}</h3>
           <h4 className='phone'>{eachAuthor.designation} </h4>
+          <h4 className='phone'>{eachAuthor.email} </h4>
           <h5 className="position">{eachAuthor.phone}</h5>
         </div>
         <div className="user-bio has-text-centered">
