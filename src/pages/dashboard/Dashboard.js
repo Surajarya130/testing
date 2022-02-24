@@ -13,7 +13,7 @@ function Dashboard() {
         <div className="dashboardStickers">
           <div>
             <h1>
-              <span id="visitors">722,176</span>
+ 
             </h1>
             <p>PLease check people to see the list of people and add-people to add people in the list.</p>
           </div>

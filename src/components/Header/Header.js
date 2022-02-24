@@ -29,7 +29,7 @@ return(
             <div className="ms-auto me-3 me-lg-4 header__user">
               <Dropdown isOpen={dropdownOpen} toggle={toggle}>
         <DropdownToggle>
-          Sharath <i className="fa fa-user fa-fw"></i>
+          Suraj <i className="fa fa-user fa-fw"></i>
         </DropdownToggle>
         <DropdownMenu className="user__menu">
           <DropdownItem ><i className="fa fa-sign-out-alt"></i><div onClick={() => logout()} style={{paddingLeft: 10}}>Logout</div></DropdownItem>
