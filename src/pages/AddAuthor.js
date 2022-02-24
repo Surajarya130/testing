@@ -45,7 +45,7 @@ function AddAuthor() {
   return (
     <div id='layoutSidenav_content'>
         <Alert alert={alert} />
-        <h1>Add author below</h1>
+        <h1>Add People Below</h1>
 
         <label htmlFor="authorName">Name:</label>
         <input type="text" name="name" value={name} id="authorName" onChange={(e)=> setName(e.target.value)} />
