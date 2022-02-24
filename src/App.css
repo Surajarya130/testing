@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.adminLogin{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.adminLogin .formBox label{
+  display: block;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.adminLogin .formBox button{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.cardCustom {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  padding: 80px 30px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+.columns {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section {
+  background-color: #ededed;
+  min-height: 100vh;
+  position: relative;
+}
+.section .card {
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 300px;
+  max-height: 380px;
+  margin: 10px 10px;
+}
+.section .card .header {
+  height: 120px;
+  background: #22262e;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+/* .section .card .header .avatar {
+  width: 80px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+} */
+.section .card .header .avatar img {
+  display: block;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+.section .card .card-body {
+  padding: 30px;
+}
+.section .card .card-body .user-meta {
+  padding-top: 20px;
+}
+.section .card .card-body .user-meta .username {
+  font-size: 18px;
+  font-weight: 600;
+}
+.section .card .card-body .user-meta .position {
+  font-size: 90%;
+  color: #7f00ff;
+}
+.section .card .user-bio {
+  padding-top: 8px;
+  font-size: 92%;
+  color: #999;
+}
+.section .card .action {
+  padding-top: 20px;
+}
+.section .card .action .button {
+  padding: 16px 20px 16px 20px;
+  background: #22262e;
+  border-color: #7f00ff;
+  color: white !important;
+  border-radius: 100px;
+  transition: opacity 0.3s;
+}
+.section .card .action .button:hover {
+  opacity: 0.7;
+}
+
